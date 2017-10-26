@@ -6,3 +6,4 @@ Gemfile
 Gemfile.lock
 photos
 /Gemfile.lock
+deploy.sh
