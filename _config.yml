@@ -8,6 +8,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dspillere
 github_username:  dansku
 
+exclude: [node_modules, Gemfile, Gemfile.lock, gulpfile.js, deploy.sh, README.md, index.md, .gitignore]
+
 #--------------------------------------------
 gallery:
   dir: photos
@@ -20,12 +22,147 @@ gallery:
     retina: 1.5
     
   # The following options are for individual galleries.
+gallery:
+  dir: photos
+  title: "Photos"
+  sort_field: "date"
+  thumbnail_size:
+    y: 450
+    retina: 1.5
   galleries:
     2017_Istanbul:
       name: "Istanbul"
+      date: "2017/03/18"
+      best_image: 0008.jpg
+    2017_USA:
+      name: "USA"
       date: "2017/01/01"
-      best_image: 0011.jpg
+      best_image: 0008.jpg
+    2016_Iceland:
+      name: "Iceland"
+      date: "2016/11/16"
+      best_image: 0046.jpg
     2016_Romania:
       name: "Romania"
-      date: "2017/01/01"
-      best_image: 0032.jpg
+      date: "2016/11/05"
+      best_image: 0022.jpg     
+    2016_Prague:
+      name: "Prague"
+      date: "2016/07/13"
+      best_image: 0011.jpg
+    2016_London:
+      name: "London"
+      date: "2016/04/15"
+      best_image: 0008.jpg
+    2016_Thailand:
+      name: "Thailand"
+      date: "2016/02/02"
+      best_image: 0033.jpg
+    2015_Las_Vegas_and_LA:
+      name: "Vegas & LA"
+      date: "2016/01/01"
+      best_image: 0052.jpg
+    2015_Suomi:
+      name: "Suomi"
+      date: "2015/12/12"
+      best_image: "0004.jpg"
+    2015_Dublin:
+      name: "Dublin 2015"
+      date: "2015/10.12"
+      best_image: 0014.jpg
+    2015_Makerfaire_Berlin:
+      name: "Makerfaire Berlin"
+      date: "2015/10/01"
+      best_image: 0035.jpg
+    2015_Great_Ocean_Road:
+      name: "Great Ocean Road"
+      date: "2015/08/12"
+      best_image: 0031.jpg
+    2015_Thailand:
+      name: "Thailand"
+      date: "2015/07/12"
+      best_image: 0153.jpg
+    2015_Perth:
+      name: "Perth"
+      date: "2015/06/12"
+      best_image: 0038.jpg
+    2015_Melbourne:
+      name: "Melbourne"
+      date: "2015/02/12"
+      best_image: 0030.jpg
+    2014_USA:
+      name: "USA"
+      date: "2014/10/12"
+      best_image: 0028.jpg
+    2014_South_America:
+      name: "South America"
+      date: "2014/08/12"
+      best_image: 0206.jpg
+    2014_EuroTrip:
+      name: "EuroTrip"
+      date: "2014/07/12"
+      best_image: 0081.jpg
+    2014_Gravata:
+      name: "Gravata"
+      date: "2014/06/12"
+      best_image: 0003.jpg
+    2014_Road_To_Patagonia:
+      name: "Road To Patagonia"
+      date: "2014/01/12"
+      best_image: 0038.jpg
+    2013_Finados_Cemiterio:
+      name: "Finados"
+      date: "2013/10/12"
+      best_image: 0001.jpg
+    2012_Milano_Design_Week:
+      name: "Milano Design Week"
+      date: "2012/10/12"
+      best_image: 0017.jpg
+    2012_Road_Trip_Around_Italy:
+      name: "Road Trip Around Italy"
+      date: "2013/09/12"
+      best_image: 0040.jpg
+    2012_Paris:
+      name: "Paris"
+      date: "2012/02/12"
+      best_image: 0011.jpg
+    2012_Rome:
+      name: "Rome"
+      date: "2012/01/12"
+      best_image: 0044.jpg
+    2012_Monaco:
+      name: "Monaco"
+      date: "2012/01/10"
+      best_image: 0002.jpg
+    2011_Budapest_and_Praga:
+      name: "Budapest & Praga"
+      date: "2011/06/12"
+      best_image: 0031.jpg
+    2011_Brasil_Papaya:
+      name: "Brasil Papaya"
+      date: "2011/10/12"
+      best_image: 0011.jpg
+    2011_Arduino_Macro:
+      name: "Arduino Macros"
+      date: "2011/10/14"
+      best_image: 0004.jpg
+    2010_Scandinavia:
+      name: "Scandinavia"
+      date: "2010/12/10"
+      best_image: 0004.jpg
+    2009_New_York:
+      name: "New York"
+      date: "2009/03/10"
+      best_image: 0004.jpg
+    2007_Argentina_and_Chile:
+      name: "Argentina & Chile"
+      date: "2007/12/12"
+      best_image: 0070.jpg
+    Tarrafa_Hackerspace:
+      name: "Tarrafa Hackerspace"
+      date: "2014/09/12"
+      best_image: 0012.jpg
+    PCB_Projects:
+      name: "PCB Projects"
+      date: "2007/10/10"
+      best_image: 0016.jpg
