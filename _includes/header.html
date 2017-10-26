@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+
+  <meta name="viewport" content="
+    width=device-width,
+    user-scalable=no,
+    initial-scale=1,
+    minimum-scale=1,
+    maximum-scale=1">
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.4/jquery.lazy.min.js"></script>
+  <link rel="stylesheet" href="//danielandrade.net/gallery.css">
+</head>
+<body>
+  
+<script type="text/javascript">
+   $(function() {
+        $('.lazy').lazy({
+          effect: "fadeIn",
+          effectTime: 2000,
+          threshold: 0
+        });
+    });
+</script>
+
+{% include svg_shadow.html %}
