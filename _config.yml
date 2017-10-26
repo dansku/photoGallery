@@ -61,7 +61,7 @@ gallery:
     2015_Las_Vegas_and_LA:
       name: "Vegas & LA"
       date: "2016/01/01"
-      best_image: 0052.jpg
+      best_image: 0048.jpg
     2015_Suomi:
       name: "Suomi"
       date: "2015/12/12"
@@ -149,7 +149,7 @@ gallery:
     2010_Scandinavia:
       name: "Scandinavia"
       date: "2010/12/10"
-      best_image: 0004.jpg
+      best_image: 0045.jpg
     2009_New_York:
       name: "New York"
       date: "2009/03/10"
