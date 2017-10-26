@@ -1,0 +1,52 @@
+{% include header.html %}
+
+<a id="gallery-back" href="/photos">
+  <svg viewBox="0 0 20 40">
+  <polyline points="20,0 0,20 20,40"/>
+</svg>
+  <span>ALBUMS</span>
+</a>
+
+<h1 id="gallery-header">
+  <div class="container">
+        <a href="/{{ site.gallery.dir }}/{{ page.gallery }}">{{ page.title }}</a>
+    <span class="date">{{ page.date | date: "%Y" }}</span>
+  </div>
+  <img id="bg-loader" src="thumbs/{{ page.blur_image }}">
+  <div id="bg-source" style="background:url(thumbs/{{ page.blur_image }})"></div>
+  <div id="bg-wrapper"></div>
+</h1>
+
+<div id="zoom">
+  <div class="controls">
+    <a class="close"><svg viewBox="0 0 30 30">
+  <g filter="url(#shadow)">
+    <line x1="0" y1="0" x2="30" y2="30" />
+    <line x1="0" y1="30" x2="30" y2="0" />
+  </g>
+</svg></a>
+    <a class="arrow left"><svg viewBox="0 0 20 40">
+  <polyline points="20,0 0,20 20,40" filter="url(#shadow)"/>
+</svg></a>
+    <a class="arrow right"><svg viewBox="0 0 20 40">
+  <polyline points="0,0 20,20 0,40" filter="url(#shadow)"/>
+</svg></a>
+  </div>
+  <div class="container"></div>
+  <div class="loading"><svg viewBox="0 0 50 50">
+  <path d="M25,0C11.2,0,0,11.2,0,25s11.2,25,25,25s25-11.2,25-25 c0-6.9-2.8-13.2-7.3-17.7"/>
+</svg>
+</div>
+</div>
+
+<div id="gallery">
+    
+  {% for image in page.images %}
+      <a class="item" href="{{ image.name }}">
+        <img src="thumbs/{{ image.name }}"/>
+      </a>
+  {% endfor%} 
+      
+</div>
+
+{% include footer.html %}

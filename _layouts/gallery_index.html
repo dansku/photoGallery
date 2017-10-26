@@ -1,0 +1,22 @@
+{% include header.html %}
+
+<div id="gallery-list">
+  
+  {% for gallery in page.galleries %}
+  <a href="{{ gallery['gallery'] }}">
+      <div class="img-container">
+        <div class="img" style="
+          background: url('{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}') no-repeat center center;
+          background-size: cover;
+        "></div>
+      </div>
+      <div class="container">
+        <span class="title">{{ gallery["name"] }}</span>
+        <span class="date">{{ gallery["date"] | date: "%Y" }}</span>
+      </div>
+    </a>
+  {% endfor %}
+  
+</div>
+
+{% include footer.html %}
