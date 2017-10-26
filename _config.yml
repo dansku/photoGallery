@@ -8,10 +8,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dspillere
 github_username:  dansku
 
-# Build settings
-markdown: kramdown
-
-
 #--------------------------------------------
 gallery:
   dir: photos
@@ -20,8 +16,7 @@ gallery:
   title_prefix: "" 
   symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
   thumbnail_size:
-    y: 400
-    x: 400
+    y: 450
     retina: 1.5
     
   # The following options are for individual galleries.
