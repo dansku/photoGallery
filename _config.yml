@@ -30,6 +30,10 @@ gallery:
     y: 450
     retina: 1.5
   galleries:
+    2017_Berlin:
+      name: "Berlin"
+      date: "2017/08/01"
+      best_image: 0062.jpg
     2017_Istanbul:
       name: "Istanbul"
       date: "2017/03/18"
