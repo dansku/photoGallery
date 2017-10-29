@@ -54,6 +54,6 @@ gallery:
 ```
 
 ## Thanks to
-* The people behind jekyll projecy
+* The people behind jekyll project
 * [Geoff Greer](https://github.com/ggreer) for the script
 * [Gusso](https://github.com/gusso) for the design
