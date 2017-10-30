@@ -30,6 +30,10 @@ gallery:
     y: 450
     retina: 1.5
   galleries:
+    2017_Canada:
+      name: "West Coast & Cadanad"
+      date: "2017/10/01"
+      best_image: 0184.jpg
     2017_Berlin:
       name: "Berlin"
       date: "2017/08/01"
