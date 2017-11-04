@@ -33,7 +33,7 @@ gallery:
     2017_Canada:
       name: "West Coast & Cadanad"
       date: "2017/10/01"
-      best_image: 0184.jpg
+      best_image: 0191.jpg
     2017_Berlin:
       name: "Berlin"
       date: "2017/08/01"
@@ -45,11 +45,11 @@ gallery:
     2017_USA:
       name: "USA"
       date: "2017/01/01"
-      best_image: 0008.jpg
+      best_image: 0013.jpg
     2016_Iceland:
       name: "Iceland"
       date: "2016/11/16"
-      best_image: 0046.jpg
+      best_image: 0020.jpg
     2016_Romania:
       name: "Romania"
       date: "2016/11/05"
@@ -57,7 +57,7 @@ gallery:
     2016_Prague:
       name: "Prague"
       date: "2016/07/13"
-      best_image: 0011.jpg
+      best_image: 0015.jpg
     2016_London:
       name: "London"
       date: "2016/04/15"
@@ -81,7 +81,7 @@ gallery:
     2015_Makerfaire_Berlin:
       name: "Makerfaire Berlin"
       date: "2015/10/01"
-      best_image: 0035.jpg
+      best_image: 0001.jpg
     2015_Great_Ocean_Road:
       name: "Great Ocean Road"
       date: "2015/08/12"
@@ -89,7 +89,7 @@ gallery:
     2015_Thailand:
       name: "Thailand"
       date: "2015/07/12"
-      best_image: 0153.jpg
+      best_image: 0069.jpg
     2015_Perth:
       name: "Perth"
       date: "2015/06/12"
@@ -97,7 +97,7 @@ gallery:
     2015_Melbourne:
       name: "Melbourne"
       date: "2015/02/12"
-      best_image: 0030.jpg
+      best_image: 0031.jpg
     2014_USA:
       name: "USA"
       date: "2014/10/12"
@@ -105,11 +105,11 @@ gallery:
     2014_South_America:
       name: "South America"
       date: "2014/08/12"
-      best_image: 0206.jpg
+      best_image: 0077.jpg
     2014_EuroTrip:
       name: "EuroTrip"
       date: "2014/07/12"
-      best_image: 0081.jpg
+      best_image: 0040.jpg
     2014_Gravata:
       name: "Gravata"
       date: "2014/06/12"
@@ -121,7 +121,7 @@ gallery:
     2013_Finados_Cemiterio:
       name: "Finados"
       date: "2013/10/12"
-      best_image: 0001.jpg
+      best_image: 0007.jpg
     2012_Milano_Design_Week:
       name: "Milano Design Week"
       date: "2012/10/12"
@@ -129,7 +129,7 @@ gallery:
     2012_Road_Trip_Around_Italy:
       name: "Road Trip Around Italy"
       date: "2013/09/12"
-      best_image: 0040.jpg
+      best_image: 0038.jpg
     2012_Paris:
       name: "Paris"
       date: "2012/02/12"
@@ -137,11 +137,11 @@ gallery:
     2012_Rome:
       name: "Rome"
       date: "2012/01/12"
-      best_image: 0044.jpg
+      best_image: 0040.jpg
     2012_Monaco:
       name: "Monaco"
       date: "2012/01/10"
-      best_image: 0002.jpg
+      best_image: 0012.jpg
     2011_Budapest_and_Praga:
       name: "Budapest & Praga"
       date: "2011/06/12"
@@ -149,7 +149,7 @@ gallery:
     2011_Brasil_Papaya:
       name: "Brasil Papaya"
       date: "2011/10/12"
-      best_image: 0011.jpg
+      best_image: 0018.jpg
     2011_Arduino_Macro:
       name: "Arduino Macros"
       date: "2011/10/14"
@@ -157,7 +157,7 @@ gallery:
     2010_Scandinavia:
       name: "Scandinavia"
       date: "2010/12/10"
-      best_image: 0045.jpg
+      best_image: 0008.jpg
     2009_New_York:
       name: "New York"
       date: "2009/03/10"
