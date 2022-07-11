@@ -4,9 +4,6 @@ I want to share my jekyll photo gallery, simple, functional, mobile friendly and
 
 ![Example Image](https://i.imgur.com/vpmSx7S.png "Optional title")
 
-**DEMO GALLERY:**
-https://www.danielandrade.net/photos/
-
 ## Dependencies
 (copied from the plugin repo)
 
